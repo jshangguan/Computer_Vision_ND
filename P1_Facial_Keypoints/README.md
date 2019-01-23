@@ -8,3 +8,5 @@ This facial keypoints dataset consists of 5770 color images, which has been extr
 * 3462 of these images are training images, for you to use as you create a model to predict keypoints.
 * 2308 are test images to be used to test the accuracy of your model.
 ## Results
+![image](https://github.com/jshangguan/CVND/blob/master/P1_Facial_Keypoints/images/michelle_detected.png)
+![image](https://github.com/jshangguan/CVND/blob/master/P1_Facial_Keypoints/images/michelle_detected.png)
