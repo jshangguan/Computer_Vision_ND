@@ -9,7 +9,5 @@ This facial keypoints dataset consists of 5770 color images, which has been extr
 * 2308 are test images to be used to test the accuracy of your model.
 ## Results
 ![image](https://github.com/jshangguan/CVND/blob/master/P1_Facial_Keypoints/images/obamas1_keypoints.png)
-![image](https://github.com/jshangguan/CVND/blob/master/P1_Facial_Keypoints/images/obamas1_keypoints.png)
-![image](https://github.com/jshangguan/CVND/blob/master/P1_Facial_Keypoints/images/obama_keypoints.png)
-![image](https://github.com/jshangguan/CVND/blob/master/P1_Facial_Keypoints/images/obama_keypoints.png)
-![image](https://github.com/jshangguan/CVND/blob/master/P1_Facial_Keypoints/images/obama_keypoints.png)
+![image](https://github.com/jshangguan/CVND/blob/master/P1_Facial_Keypoints/images/obamas2_keypoints.png)
+
