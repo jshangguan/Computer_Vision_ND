@@ -39,11 +39,13 @@ In this project, I implemented SLAM (Simultaneous Localization and Mapping) for 
 *Below is an example of a 2D robot world with landmarks (purple x's) and the robot (a red 'o') located and found using *only* sensor and motion data collected by that robot. This is just one example for a 50x50 grid world.*
 
 <p align="center">
-  <img src="./images/robot_world.png" width=50% height=50% />
+  <img src="https://github.com/jshangguan/Computer_Vision_ND/blob/master/P3_Implement_SLAM/images/robot_world.png" width=50% height=50% />
 </p>
 
 ## Results
 The final position of the robot is (24.66580405687, 82.86809855648303). 
+
+*Below is the 2D robot world with landmarks (purple x's) and the robot (a red 'o') located and found using *only* sensor and motion data collected by that robot.*
 <p align="center">
-  <img src="./images/final_pose.png" width=50% height=50% />
+  <img src="https://github.com/jshangguan/Computer_Vision_ND/blob/master/P3_Implement_SLAM/images/final_pose.png" width=50% height=50% />
 </p>
