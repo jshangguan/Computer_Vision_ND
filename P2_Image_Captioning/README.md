@@ -1,27 +1,16 @@
-# CVND---Image-Captioning-Project
+# Project 2: Image Captioning Project
+In this project, I designed and trained a CNN-RNN model for automatically generating image captions. The training dataset is [Microsoft Common Objects in COntext (MS COCO) dataset](http://cocodataset.org/#home), which is a large-scale dataset for scene understanding. The dataset is commonly used to train and benchmark object detection, segmentation, and captioning algorithms. 
+The modal uses a CNN as an image “encoder”, by first pre-training it for an image classification task and using the last hidden layer as an input to the RNN decoder that generates sentences. It generates complete sentences in natural language from an input image, as shown on the example below.
 
-# Instructions  
-1. Clone this repo: https://github.com/cocodataset/cocoapi  
-```
-git clone https://github.com/cocodataset/cocoapi.git  
-```
+![image](https://github.com/jshangguan/Computer_Vision_ND/blob/master/P2_Image_Captioning/images/encoder-decoder.png)
 
-2. Setup the coco API (also described in the readme [here](https://github.com/cocodataset/cocoapi)) 
-```
-cd cocoapi/PythonAPI  
-make  
-cd ..
-```
+## Results
+Images with relatively accurate captions:
 
-3. Download some specific data from here: http://cocodataset.org/#download (described below)
+![image](https://github.com/jshangguan/Computer_Vision_ND/blob/master/P2_Image_Captioning/images/accurate_caption_1.png)
+![image](https://github.com/jshangguan/Computer_Vision_ND/blob/master/P2_Image_Captioning/images/accurate_caption_2.png)
 
-* Under **Annotations**, download:
-  * **2014 Train/Val annotations [241MB]** (extract captions_train2014.json and captions_val2014.json, and place at locations cocoapi/annotations/captions_train2014.json and cocoapi/annotations/captions_val2014.json, respectively)  
-  * **2014 Testing Image info [1MB]** (extract image_info_test2014.json and place at location cocoapi/annotations/image_info_test2014.json)
+Images with relatively inaccurate captions:
 
-* Under **Images**, download:
-  * **2014 Train images [83K/13GB]** (extract the train2014 folder and place at location cocoapi/images/train2014/)
-  * **2014 Val images [41K/6GB]** (extract the val2014 folder and place at location cocoapi/images/val2014/)
-  * **2014 Test images [41K/6GB]** (extract the test2014 folder and place at location cocoapi/images/test2014/)
-
-4. The project is structured as a series of Jupyter notebooks that are designed to be completed in sequential order (`0_Dataset.ipynb, 1_Preliminaries.ipynb, 2_Training.ipynb, 3_Inference.ipynb`).
+![image](https://github.com/jshangguan/Computer_Vision_ND/blob/master/P2_Image_Captioning/images/inaccurate_caption_1.png)
+![image](https://github.com/jshangguan/Computer_Vision_ND/blob/master/P2_Image_Captioning/images/inaccurate_caption_2.png)
